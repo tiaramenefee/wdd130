@@ -1,0 +1,269 @@
+#content {
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-align: center;
+    color: #F890BD;
+    text-decoration: none;
+    padding: 35px
+   }
+
+nav a:hover {
+    background-color: #F890BD;
+    color: black;
+   }
+
+#logo_link {
+    padding-top:5px;
+    justify-self: center;
+    align-self: center;
+}
+
+header {
+    background-color: #F890BD(20,30,13, .7);
+    grid-template-columns: 150px auto;
+   }
+
+.logo {
+    width: 80px;
+   }
+
+.home-grid {
+  padding: 1em 2em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 0.5fr; /* added a row for captions */
+  grid-gap: 2em;
+}
+
+.bracelet-card {
+  grid-column: 1;
+  grid-row: 1 / span 2; /* changed to span 2 rows */
+  height: 400px;
+  margin-top: 0px;
+  position: relative;
+  z-index: 2;
+}
+
+.necklace-card {
+  grid-column: 2;
+  grid-row: 1 / span 2; /* changed to span 2 rows */
+  height: 400px;
+  margin-top: 0px;
+  position: relative;
+  z-index: 2;
+}
+
+.bracelet-card img,
+.necklace-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.necklace-card p {
+  margin-top: 20px;
+}
+
+.bracelet-card,
+.necklace-card {
+  text-align: center;
+  z-index: 1;
+}
+
+.caption {
+  text-align: center;
+}
+
+.caption p {
+  margin-top: 10px;
+}
+
+#background {
+  height: 725px;
+  grid-column: 1/11;
+  grid-row: 5/9;
+  background-color: #F890BD;
+  margin: 45px;
+  padding: 35px;
+}
+
+.tarebarebackground img {
+    width: 80%;
+    height: auto;
+    grid-column: 2/7;
+    grid-row: 5/8;
+    margin-left: 10%;
+    transform: translateX(0%); /* Adjust the translation value as per your requirement */
+}
+
+.msg {
+    background-color: #BF6D24;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #BF6D24;
+}
+
+h2 {
+    margin: 0;
+}
+
+body {
+    background-color: #fcfbfb;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+   }
+
+.home-title {
+    color: #F890BD;
+    font-family: "IM Fell French Canon SC";
+    font-size: 2em;
+    margin-top: 10px;
+   }
+
+footer {
+    background-color:#F890BD(20,30,13, .7);
+    padding: 25px 50px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   }
+
+#banner-msg h1 {
+    text-align: center;
+   }
+
+#banner-msg h4 {
+    text-align: center;
+    color: white;
+   }
+
+#banner-img {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+   width:100%;
+   }
+
+ #banner-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+.tarebarebackground {
+    width: 100%;
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px  #594343;
+}
+
+.msg h2 {
+    color: white;
+   }
+
+.msg p {
+    color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
+   }
+
+.card-img, .tarebarebackground {
+    width: 100%;
+}
+
+footer h3 {
+    color: white;
+   }
+
+footer a {
+    color: #F890BD;
+    text-decoration: none;
+    margin-top: 200px;
+   }
+
+footer a:hover {
+    color: #F890BD;
+   }
+
+footer h3 a {
+    text-decoration: underline;
+   }
+
+@media screen and (max-width: 900px) {
+
+ #banner, .home-grid {
+        display: block;
+        height: auto;
+    }
+
+ nav, footer {
+        flex-direction: column;
+    }
+
+nav a {
+        display: block;
+        padding: 15px;
+    }
+
+#banner {
+        margin-top: 0;
+    }
+
+ #banner-msg {
+        margin-top: 0;
+    }
+
+ #banner-msg h4 {
+        display: none;
+    }
+
+.home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+
+#background {
+        display: none;
+    }
+
+.tarebarebackground, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+
+footer {
+        margin-top: 25px;
+    }
+
+}
+
+.button-box {
+    text-align: center;
+   }
+
+.purchase, .join 
+   {
+       background-color: #fcfbfb;
+       color: #F890BD;
+       text-decoration: none;
+       font-size: 18px;
+       padding: 15px 30px;
+       margin-top :50px;
+       border-radius: 5px;
+      }
+
+
+
