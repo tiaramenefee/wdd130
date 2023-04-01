@@ -331,3 +331,102 @@ footer {
 
 
 
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  /* Style for the first two images */
+  .braclets,
+  .Necklace {
+    flex-basis: 20%;
+  }
+  
+  /* Style for the bracelets section */
+  .braclets {
+    margin-right: 10px;
+  }
+  
+  /* Style for the bracelets image */
+  .braclets-img {
+    margin: 10px auto;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  /* Style for the necklace section */
+  .Necklace {
+    margin-left: 10px;
+  }
+  
+  /* Style for the necklace image */
+  .Neckace-img {
+    margin: 10px auto;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  #Customization1,
+  #Customization2 {
+    margin: 20px;
+    display: inline-block;
+  }
+  
+  #Customization1,
+  #Customization2 {
+    text-align: center;
+    width: 45%;
+    margin: 5px;
+  }
+  
+  .customization1,
+  .customization2 {
+    display: block;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  /* Style for the banner */
+  #tarebarebanner {
+    height: 100vh;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+  }
+  
+  /* Style for the banner image */
+  #tarebarebanner-img {
+    max-width: 100%;
+    height: auto;
+  }
+  #bottombanner {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #bottombanner img {
+    max-width: 100%;
+    height: auto;
+  }
+
+#customization1 p {
+    font-family: Lato, Helvetica, sans-serif;
+
+}
+
+#customization2 p {
+    font-family: Lato, Helvetica, sans-serif;
+
+}
+
+#braclets h1 {
+    font-family: "IM Fell French Canon SC";
+
+}
+
+#necklace h1 {
+    font-family: "IM Fell French Canon SC";
+}
